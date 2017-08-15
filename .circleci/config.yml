@@ -27,9 +27,6 @@ jobs:
           name: git clone
           command: git clone git@github.com:medicalnote/medicalnote.github.io.git
       - run:
-          name: hugo build
-          command: hugo
-      - run:
           name: add
           command: cd dist && git add .
       - run:
