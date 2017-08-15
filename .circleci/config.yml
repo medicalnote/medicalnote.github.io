@@ -12,17 +12,17 @@ jobs:
           name: build hugo
           command: hugo -t minimal
       - save_cache:
-          key: dist-{{ epoch }}
+          key: techblog-{{ epoch }}
           paths:
-            - ~/techblog/dist
+            - ~/techblog
 
   deploy:
-    working_directory: ~/techblog/dist
+    working_directory: ~/techblog
     machine: true
     steps:
       - restore_cache:
           keys:
-            - dist
+            - techblog
       - run:
           name: git clone
           command: git clone git@github.com:medicalnote/medicalnote.github.io.git
@@ -31,7 +31,7 @@ jobs:
           command: cd dist && git add .
       - run:
           name: commit
-          command: cd dist && git commit -m "[ci skip] dist"
+          command: cd dist && git commit -m "[circleci deploy] dist"
       - run:
           name: push
           command: cd dist && git push origin master
