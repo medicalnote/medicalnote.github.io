@@ -10,8 +10,7 @@ jobs:
           command: go get -v github.com/gohugoio/hugo
       - run:
           name: build hugo
-          pwd: dist/
-          command: hugo
+          command: hugo -t minimal
       - save_cache:
           key: dist-{{ epoch }}
           paths:
