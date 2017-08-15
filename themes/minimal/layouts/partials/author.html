@@ -1,0 +1,13 @@
+    {{ if .Params.author }}
+    {{ $author := index .Site.Params.Authors .Params.author}}
+    {{ if $author }}
+    <!-- Front Matterのauthorがauthors中にあるとき -->
+    <p class="author">【{{ $author.name }} : {{ $author.bio }} 】</p>
+    {{ else }}
+    <!-- Front Matterのauthorがauthorsに無かったとき -->
+    <p class="author">【 {{ .Params.author }} 】</p>
+    {{ end }}
+    {{ else }}
+    <!-- Front Matterにauthorが無かったとき -->
+    <p class="author">【 {{ .Site.Params.defaultAuthor}} 】</p>
+    {{ end }}
