@@ -11,7 +11,7 @@ jobs:
       - run:
           name: build hugo
           pwd: dist/
-          command: hugo -t minimal
+          command: hugo
       - save_cache:
           key: dist-{{ epoch }}
           paths:
