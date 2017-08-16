@@ -31,7 +31,7 @@ jobs:
             - techblog
       - run:
           name: cd dist
-          command: git config --global user.name "${GIT_USER_NAME}"
+          command: cd dist
       - run:
           name: git user name
           command: git config --global user.name "${GIT_USER_NAME}"
@@ -46,13 +46,13 @@ jobs:
           command: git remote set-url origin git@github.com:medicalnote/medicalnote.github.io.git
       - run:
           name: add
-          command: cd dist && git add .
+          command: cd dist && git add git add --all
       - run:
           name: commit
           command: cd dist && git commit -m "[ci skip] dist"
       - run:
           name: push
-          command: git push -f origin
+          command: cd dist && git push -f origin
 
 workflows:
   version: 2
