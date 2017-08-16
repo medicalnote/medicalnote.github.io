@@ -40,7 +40,7 @@ jobs:
           command: git config --global user.email "${GIT_USER_EMAIL}"
       - run:
           name: git clone
-          command: git clone git@github.com:medicalnote/medicalnote.github.io.git
+          command: cd dist && git clone git@github.com:medicalnote/medicalnote.github.io.git
       - run:
           name: change git repositly
           command: git remote set-url origin git@github.com:medicalnote/medicalnote.github.io.git
