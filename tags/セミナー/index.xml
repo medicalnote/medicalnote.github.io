@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>セミナー on Medical Note(メディカルノート) techブログ</title>
+    <link>https://medicalnote.github.io/tags/%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC/</link>
+    <description>Recent content in セミナー on Medical Note(メディカルノート) techブログ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>Medical Note All rights reserved.</copyright>
+    <lastBuildDate>Mon, 14 Aug 2017 18:04:32 +0900</lastBuildDate>
+    
+	<atom:link href="https://medicalnote.github.io/tags/%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HTML5 Conference</title>
+      <link>https://medicalnote.github.io/post/event_html5/</link>
+      <pubDate>Mon, 14 Aug 2017 18:04:32 +0900</pubDate>
+      
+      <guid>https://medicalnote.github.io/post/event_html5/</guid>
+      <description>HTML5 Conference &amp;ldquo;We can do anything on the Web&amp;rdquo; ほんの少し前には、次世代Web標準技術と呼ばれた数多くの仕様は、まだまだ実用に耐えうるには時間が掛かるだろうという意味で、</description>
+    </item>
+    
+  </channel>
+</rss>
