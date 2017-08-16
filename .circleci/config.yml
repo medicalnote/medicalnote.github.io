@@ -46,7 +46,7 @@ jobs:
           command: git remote set-url origin git@github.com:medicalnote/medicalnote.github.io.git
       - run:
           name: add
-          command: cd dist && git add git add --all
+          command: cd dist && git add --all
       - run:
           name: commit
           command: cd dist && git commit -m "[ci skip] dist"
@@ -59,16 +59,9 @@ workflows:
   build_and_deploy:
     jobs:
       - build
-      - approve:
-          type: approval
-          requires:
-            - build
-          filters:
-            branches:
-              only: master
       - deploy:
           requires:
-            - approve
+            - build
           filters:
             branches:
               only: master
