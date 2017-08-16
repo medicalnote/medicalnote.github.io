@@ -45,14 +45,17 @@ jobs:
           name: change git repositly
           command: git remote set-url origin git@github.com:medicalnote/medicalnote.github.io.git
       - run:
-          name: fetch & merge
-          command: git fetch && git merge origin/master
-      - run:
           name: add
           command: cd dist && git add .
       - run:
           name: commit
           command: cd dist && git commit -m "[ci skip] dist"
+      - run:
+          name: fetch
+          command: git fetch
+      - run:
+          name: merge
+          command: git merge origin/master
       - run:
           name: push
           command: cd dist && git push origin master
