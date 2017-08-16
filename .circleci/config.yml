@@ -51,11 +51,8 @@ jobs:
           name: commit
           command: cd dist && git commit -m "[ci skip] dist"
       - run:
-          name: git pull
-          command: git pull
-      - run:
           name: push
-          command: cd dist && git push -u origin master
+          command: git push -f origin
 
 workflows:
   version: 2
