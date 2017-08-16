@@ -15,7 +15,13 @@ jobs:
           key: techblog-{{ epoch }}
           paths:
             - ~/techblog
-
+  approve:
+    working_directory: ~/techblog
+    machine: true
+    steps:
+      - run:
+          name: noope
+          command: echo noope
   deploy:
     working_directory: ~/techblog
     machine: true
@@ -24,6 +30,12 @@ jobs:
           keys:
             - techblog
       - run:
+          name: git user name
+          command: git config --global user.name "${GIT_USER_NAME}"
+      - run:
+          name: git user email
+          command: git config --global user.email "${GIT_USER_EMAIL}"
+      - run:
           name: git clone
           command: git clone git@github.com:medicalnote/medicalnote.github.io.git
       - run:
@@ -31,7 +43,7 @@ jobs:
           command: cd dist && git add .
       - run:
           name: commit
-          command: cd dist && git commit -m "[circleci deploy] dist"
+          command: cd dist && git commit -m "[ci skip] dist"
       - run:
           name: push
           command: cd dist && git push origin master
@@ -41,9 +53,16 @@ workflows:
   build_and_deploy:
     jobs:
       - build
-      - deploy:
+      - approve:
+          type: approval
           requires:
             - build
+          filters:
+            branches:
+              only: master
+      - deploy:
+          requires:
+            - approve
           filters:
             branches:
               only: master
