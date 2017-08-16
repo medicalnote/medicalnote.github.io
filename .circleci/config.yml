@@ -30,6 +30,9 @@ jobs:
           keys:
             - techblog
       - run:
+          name: cd dist
+          command: git config --global user.name "${GIT_USER_NAME}"
+      - run:
           name: git user name
           command: git config --global user.name "${GIT_USER_NAME}"
       - run:
@@ -41,6 +44,9 @@ jobs:
       - run:
           name: change git repositly
           command: git remote set-url origin git@github.com:medicalnote/medicalnote.github.io.git
+      - run:
+          name: fetch & merge
+          command: git fetch && git merge origin/master
       - run:
           name: add
           command: cd dist && git add .
