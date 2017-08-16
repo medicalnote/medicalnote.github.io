@@ -40,7 +40,7 @@ jobs:
           command: git clone git@github.com:medicalnote/medicalnote.github.io.git
       - run:
           name: change git repositly
-          command: git remote set-url git@github.com:medicalnote/medicalnote.github.io.git
+          command: git remote set-url origin git@github.com:medicalnote/medicalnote.github.io.git
       - run:
           name: add
           command: cd dist && git add .
