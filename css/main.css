@@ -4,3 +4,9 @@
 
 /* see #6 */
 .highlighttable td,th{padding:0;border:0;}td.code{width:95%;}
+
+/*add css*/
+.author{
+    color: #757575;
+    font-size: 16px;
+}
