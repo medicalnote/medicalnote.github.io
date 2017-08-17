@@ -7,72 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Medical Note All rights reserved.</copyright>
-    <lastBuildDate>Thu, 17 Aug 2017 12:17:12 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 14 Aug 2017 19:52:02 +0900</lastBuildDate>
     
 	<atom:link href="https://medicalnote.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>HUGOブログ概要</title>
-      <link>https://medicalnote.github.io/post/deploy_hugo/</link>
-      <pubDate>Thu, 17 Aug 2017 12:17:12 +0900</pubDate>
-      
-      <guid>https://medicalnote.github.io/post/deploy_hugo/</guid>
-      <description>HUGOプロジェクト構成 設定ファイル config.toml /themes デザインレイアウト ここにテーマフォルダを入れて書き出すと簡単に確認ができる テーマによってconfig</description>
-    </item>
-    
-    <item>
-      <title>Hugo開始メモ</title>
-      <link>https://medicalnote.github.io/post/hugo_start/</link>
-      <pubDate>Tue, 15 Aug 2017 17:09:44 +0900</pubDate>
-      
-      <guid>https://medicalnote.github.io/post/hugo_start/</guid>
-      <description>インストール brew install hugo 新規作成 hugo new site ***** ローカル起動 + テンプレートテーマ適用(新規作成したhugoのプロジェクトrootで) hugo server -t minimal -D -w 記事作成 hugo</description>
-    </item>
-    
-    <item>
-      <title>Push通知サービス検討メモ</title>
-      <link>https://medicalnote.github.io/post/push_notification/</link>
-      <pubDate>Tue, 15 Aug 2017 16:27:03 +0900</pubDate>
-      
-      <guid>https://medicalnote.github.io/post/push_notification/</guid>
-      <description>iOS（ゆくゆくはAndroid）へのPush通知を実装する上で どういうサービスを使うべきかということに関しての検討まとめメモ 今回の調査にお</description>
-    </item>
-    
-    <item>
-      <title>メディカルノートの開発現場から(2)｜とても「メディカルノートらしい」Webサイトの運用</title>
+      <title>「メディカルノートらしい」Webサイトの運用</title>
       <link>https://medicalnote.github.io/post/wantedly2/</link>
       <pubDate>Mon, 14 Aug 2017 19:52:02 +0900</pubDate>
       
       <guid>https://medicalnote.github.io/post/wantedly2/</guid>
-      <description>メディカルノートの開発現場から(2)とても「メディカルノートらしい」Webサイトの運用 メディカルノートでCTOをしている河本と申します。何回</description>
+      <description>メディカルノートでCTOをしている河本と申します。何回かに渡ってメディカルノートがどのようなやり方でシステム開発を行っているかご紹介しようと</description>
     </item>
     
     <item>
-      <title>メディカルノートの開発現場から(1)｜開発に専念するための環境作り</title>
+      <title>開発に専念するための環境作り</title>
       <link>https://medicalnote.github.io/post/wantedly1/</link>
       <pubDate>Mon, 14 Aug 2017 19:51:58 +0900</pubDate>
       
       <guid>https://medicalnote.github.io/post/wantedly1/</guid>
-      <description>メディカルノートの開発現場から(1)開発に専念するための環境作り メディカルノートでCTOをしている河本と申します。 何回かに渡ってメディカルノ</description>
-    </item>
-    
-    <item>
-      <title>RubyKaigi 2017</title>
-      <link>https://medicalnote.github.io/post/news2/</link>
-      <pubDate>Mon, 14 Aug 2017 18:59:14 +0900</pubDate>
-      
-      <guid>https://medicalnote.github.io/post/news2/</guid>
-      <description>RubyKaigi 2017 http://rubykaigi.org/2017 さて、先にタイトルの問いに対する結論から書くと、なぜ広島開催なのか、の直接的な理由はすこぶる単純で、つまるところ以下の2点です。 広島国</description>
-    </item>
-    
-    <item>
-      <title>HTML5 Conference</title>
-      <link>https://medicalnote.github.io/post/event_html5/</link>
-      <pubDate>Mon, 14 Aug 2017 18:04:32 +0900</pubDate>
-      
-      <guid>https://medicalnote.github.io/post/event_html5/</guid>
-      <description>HTML5 Conference &amp;ldquo;We can do anything on the Web&amp;rdquo; ほんの少し前には、次世代Web標準技術と呼ばれた数多くの仕様は、まだまだ実用に耐えうるには時間が掛かるだろうという意味で、</description>
+      <description>メディカルノートでCTOをしている河本と申します。 何回かに渡ってメディカルノートがどのようなやり方でシステム開発を行っているかご紹介しようと</description>
     </item>
     
   </channel>

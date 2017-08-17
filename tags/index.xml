@@ -7,55 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Medical Note All rights reserved.</copyright>
-    <lastBuildDate>Tue, 15 Aug 2017 16:27:03 +0900</lastBuildDate>
     
 	<atom:link href="https://medicalnote.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Android</title>
-      <link>https://medicalnote.github.io/tags/android/</link>
-      <pubDate>Tue, 15 Aug 2017 16:27:03 +0900</pubDate>
-      
-      <guid>https://medicalnote.github.io/tags/android/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://medicalnote.github.io/tags/hugo/</link>
-      <pubDate>Thu, 17 Aug 2017 12:17:12 +0900</pubDate>
-      
-      <guid>https://medicalnote.github.io/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ios</title>
-      <link>https://medicalnote.github.io/tags/ios/</link>
-      <pubDate>Tue, 15 Aug 2017 16:27:03 +0900</pubDate>
-      
-      <guid>https://medicalnote.github.io/tags/ios/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mobile</title>
-      <link>https://medicalnote.github.io/tags/mobile/</link>
-      <pubDate>Tue, 15 Aug 2017 16:27:03 +0900</pubDate>
-      
-      <guid>https://medicalnote.github.io/tags/mobile/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Push通知</title>
-      <link>https://medicalnote.github.io/tags/push%E9%80%9A%E7%9F%A5/</link>
-      <pubDate>Tue, 15 Aug 2017 16:27:03 +0900</pubDate>
-      
-      <guid>https://medicalnote.github.io/tags/push%E9%80%9A%E7%9F%A5/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Wantedly</title>
@@ -63,33 +17,6 @@
       <pubDate>Mon, 14 Aug 2017 19:52:02 +0900</pubDate>
       
       <guid>https://medicalnote.github.io/tags/wantedly/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>イベント</title>
-      <link>https://medicalnote.github.io/tags/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/</link>
-      <pubDate>Mon, 14 Aug 2017 18:59:14 +0900</pubDate>
-      
-      <guid>https://medicalnote.github.io/tags/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>サイト生成</title>
-      <link>https://medicalnote.github.io/tags/%E3%82%B5%E3%82%A4%E3%83%88%E7%94%9F%E6%88%90/</link>
-      <pubDate>Tue, 15 Aug 2017 17:09:44 +0900</pubDate>
-      
-      <guid>https://medicalnote.github.io/tags/%E3%82%B5%E3%82%A4%E3%83%88%E7%94%9F%E6%88%90/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>セミナー</title>
-      <link>https://medicalnote.github.io/tags/%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC/</link>
-      <pubDate>Mon, 14 Aug 2017 18:04:32 +0900</pubDate>
-      
-      <guid>https://medicalnote.github.io/tags/%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC/</guid>
       <description></description>
     </item>
     
