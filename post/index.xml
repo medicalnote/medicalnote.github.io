@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Medical Note All rights reserved.</copyright>
-    <lastBuildDate>Tue, 15 Aug 2017 17:09:44 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 17 Aug 2017 12:17:12 +0900</lastBuildDate>
     
 	<atom:link href="https://medicalnote.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>HUGOブログ概要</title>
+      <link>https://medicalnote.github.io/post/deploy_hugo/</link>
+      <pubDate>Thu, 17 Aug 2017 12:17:12 +0900</pubDate>
+      
+      <guid>https://medicalnote.github.io/post/deploy_hugo/</guid>
+      <description>HUGOプロジェクト構成 設定ファイル config.toml /themes デザインレイアウト ここにテーマフォルダを入れて書き出すと簡単に確認ができる テーマによってconfig</description>
+    </item>
     
     <item>
       <title>Hugo開始メモ</title>
